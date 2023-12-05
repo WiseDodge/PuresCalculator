@@ -35,8 +35,12 @@ public class VileCalculatorUI {
         GridPane.setConstraints(new Label("Select Conversion Type:"), 0, 1);
         GridPane.setConstraints(conversionTypeChoice, 1, 1);
 
+
         Button calculateButton = new Button("Calculate");
         GridPane.setConstraints(calculateButton, 1, 2);
+
+        Button lookupPlayerButton = new Button("Look up player");
+        GridPane.setConstraints(lookupPlayerButton,1,3);
 
         resultLabel = new Label();
         GridPane.setConstraints(resultLabel, 0, 3, 2, 1);
@@ -74,10 +78,16 @@ public class VileCalculatorUI {
             }
         });
 
+        // Add the label for Pant Bundles to the grid
         grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, resultLabel, infoLabel);
     }
 
-    public GridPane getGrid() {
+
+
+
+public GridPane getGrid() {
+
         return grid;
     }
+
 }

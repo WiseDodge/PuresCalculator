@@ -5,7 +5,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class VileCalculatorApp extends Application {
+public class PureCalculatorApp extends Application {
     public static void main(String[] args) {
         launch(args);
     }
