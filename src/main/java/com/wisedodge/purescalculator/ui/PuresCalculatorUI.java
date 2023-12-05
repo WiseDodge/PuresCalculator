@@ -1,8 +1,8 @@
-package com.example.purescalculator.ui;
+package com.wisedodge.purescalculator.ui;
 
-import com.example.purescalculator.converters.PbToVileConverter;
-import com.example.purescalculator.converters.VileToPbConverter;
-import com.example.purescalculator.lookupmodule.PlayerLookupUI;
+import com.wisedodge.purescalculator.converters.PbToVileConverter;
+import com.wisedodge.purescalculator.converters.VileToPbConverter;
+import com.wisedodge.purescalculator.lookupmodule.PlayerLookupUI;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -10,13 +10,13 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 
-public class VileCalculatorUI {
+public class PuresCalculatorUI {
     private GridPane grid;
     private TextField quantityInput;
     private ChoiceBox<String> conversionTypeChoice;
     private Label resultLabel;
 
-    public VileCalculatorUI() {
+    public PuresCalculatorUI() {
         initializeUI();
     }
 
@@ -25,6 +25,9 @@ public class VileCalculatorUI {
         grid.setPadding(new Insets(10, 10, 10, 10));
         grid.setVgap(8);
         grid.setHgap(10);
+
+        // Set a minimum width for the entire GridPane
+        grid.setMinWidth(500);
 
         quantityInput = new TextField();
         GridPane.setConstraints(new Label("Enter Quantity:"), 0, 0);
@@ -36,24 +39,24 @@ public class VileCalculatorUI {
         GridPane.setConstraints(new Label("Select Conversion Type:"), 0, 1);
         GridPane.setConstraints(conversionTypeChoice, 1, 1);
 
-
         Button calculateButton = new Button("Calculate");
         GridPane.setConstraints(calculateButton, 1, 2);
 
         Button lookupPlayerButton = new Button("Look up player");
-        GridPane.setConstraints(lookupPlayerButton,1,3);
+        GridPane.setConstraints(lookupPlayerButton, 1, 3);
 
         resultLabel = new Label();
-        GridPane.setConstraints(resultLabel, 0, 3, 2, 1);
+        GridPane.setConstraints(resultLabel, 2, 1, 1, 2);
 
-        Label infoLabel = new Label("Standard Market Prices for Pures:\n" +
-                "1 Pant Bundle = 10 Fresh Pants or 18 Vile\n" +
-                "1 Fresh Pant = 2 Vile\n" +
-                "1 Philosopher's Cactus = 2/2.5/3 Vile \n" +
-                "1 Funky Feather = 10 Vile\n" +
-                "1 Fresh Mystic Sword = 2-6 Vile\n" +
-                "1 Fresh Mystic Bow = 1-4 Vile\n" +
-                "1 MiniCake = 6 Vile");
+        Label infoLabel = new Label("""
+                Standard Market Prices for Pures:
+                1 Pant Bundle = 10 Pants or 18 Vile
+                1 Fresh Pant = 2 Vile
+                1 Philosopher's Cactus = 2/2.5/3 Vile\s
+                1 Funky Feather = 10 Vile
+                1 Fresh Mystic Sword = 2-6 Vile
+                1 Fresh Mystic Bow = 1-4 Vile
+                1 MiniCake = 6 Vile""");
         GridPane.setConstraints(infoLabel, 0, 4, 2, 1);
 
         // Event handler for the button click
@@ -67,12 +70,15 @@ public class VileCalculatorUI {
                 if (conversionType.equals("PB to Vile")) {
                     result = new PbToVileConverter().convert(quantity);
                 } else if (conversionType.equals("Vile to PB")) {
-                    result = String.format("%.1f Vile is equivalent to %.1f PB", quantity, new VileToPbConverter().convert(quantity));
+                    result = new VileToPbConverter().convert(quantity);
                 } else {
                     result = "Invalid conversion type.";
                 }
 
                 resultLabel.setText(result);
+
+                // Move the resultLabel to a different column
+                GridPane.setColumnIndex(resultLabel, 2);
 
             } catch (NumberFormatException ex) {
                 resultLabel.setText("Invalid input. Please enter a valid number.");
@@ -86,12 +92,7 @@ public class VileCalculatorUI {
         grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, lookupPlayerButton, resultLabel, infoLabel);
     }
 
-
-
-
-public GridPane getGrid() {
-
+    public GridPane getGrid() {
         return grid;
     }
-
 }

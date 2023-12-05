@@ -1,12 +1,13 @@
 module com.example.purescalculator {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.json;
 
 
-    opens com.example.purescalculator to javafx.fxml;
-    exports com.example.purescalculator;
-    exports com.example.purescalculator.ui;
-    opens com.example.purescalculator.ui to javafx.fxml;
-    exports com.example.purescalculator.converters;
-    opens com.example.purescalculator.converters to javafx.fxml;
+    opens com.wisedodge.purescalculator to javafx.fxml;
+    exports com.wisedodge.purescalculator;
+    exports com.wisedodge.purescalculator.ui;
+    opens com.wisedodge.purescalculator.ui to javafx.fxml;
+    exports com.wisedodge.purescalculator.converters;
+    opens com.wisedodge.purescalculator.converters to javafx.fxml;
 }

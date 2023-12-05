@@ -1,11 +1,11 @@
-package com.example.purescalculator;
+package com.wisedodge.purescalculator;
 
-import com.example.purescalculator.ui.VileCalculatorUI;
+import com.wisedodge.purescalculator.ui.PuresCalculatorUI;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class PureCalculatorApp extends Application {
+public class PuresCalculatorApp extends Application {
     public static void main(String[] args) {
         launch(args);
     }
@@ -14,7 +14,7 @@ public class PureCalculatorApp extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Vile Calculator");
 
-        VileCalculatorUI calculatorUI = new VileCalculatorUI();
+        PuresCalculatorUI calculatorUI = new PuresCalculatorUI();
         Scene scene = new Scene(calculatorUI.getGrid(), 400, 450);
 
         primaryStage.setScene(scene);
