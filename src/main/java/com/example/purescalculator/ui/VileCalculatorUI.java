@@ -2,6 +2,7 @@ package com.example.purescalculator.ui;
 
 import com.example.purescalculator.converters.PbToVileConverter;
 import com.example.purescalculator.converters.VileToPbConverter;
+import com.example.purescalculator.lookupmodule.PlayerLookupUI;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
@@ -78,8 +79,11 @@ public class VileCalculatorUI {
             }
         });
 
-        // Add the label for Pant Bundles to the grid
-        grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, resultLabel, infoLabel);
+        // Event Handler for the lookup player button
+        lookupPlayerButton.setOnAction(e -> PlayerLookupUI.openPlayerLookupScreen());
+
+        // Components added to the grid
+        grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, lookupPlayerButton, resultLabel, infoLabel);
     }
 
 
