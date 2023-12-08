@@ -1,6 +1,6 @@
 package com.wisedodge.purescalculator.logging;
 
-public class AppLogs {
+public class DevLogger {
 
     // Toggleable logging flags for different modules
     // public static boolean menuLogging = true;

@@ -1,5 +1,5 @@
 package com.wisedodge.purescalculator.converters;
-import com.wisedodge.purescalculator.logging.AppLogs;
+import com.wisedodge.purescalculator.logging.DevLogger;
 
 
 public class VileToPbConverter {
@@ -10,7 +10,7 @@ public class VileToPbConverter {
 
         double totalPb = quantity / 18.0;
 
-        AppLogs.logVileToPb("Converted %.0f Vile to %.1f PB.%n", quantity, totalPb);
+        DevLogger.logVileToPb("Converted %.0f Vile to %.1f PB.%n", quantity, totalPb);
 
         StringBuilder result = new StringBuilder(String.format("%.0f Vile is equivalent to %.1f PB.", quantity, totalPb));
 

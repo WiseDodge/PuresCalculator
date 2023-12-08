@@ -1,6 +1,6 @@
 package com.wisedodge.purescalculator.lookupmodule;
 
-import com.wisedodge.purescalculator.logging.AppLogs;
+import com.wisedodge.purescalculator.logging.DevLogger;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -32,7 +32,7 @@ public class PitPandaApiAccessor {
             int responseCode = connection.getResponseCode();
 
             // Logging the API request and response code
-            AppLogs.loggingApiAccessor("API Request - URL: %s, Response Code: %d%n", apiUrl, responseCode);
+            DevLogger.loggingApiAccessor("API Request - URL: %s, Response Code: %d%n", apiUrl, responseCode);
 
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 // Read the response
@@ -59,7 +59,7 @@ public class PitPandaApiAccessor {
 
         } catch (IOException e) {
             // Logging API request failure
-            AppLogs.loggingApiAccessor("Error accessing PitPanda API: %s%n", e.getMessage());
+            DevLogger.loggingApiAccessor("Error accessing PitPanda API: %s%n", e.getMessage());
         } finally {
             // Close the connection in a finally block to ensure it's closed regardless of exceptions
             if (connection != null) {

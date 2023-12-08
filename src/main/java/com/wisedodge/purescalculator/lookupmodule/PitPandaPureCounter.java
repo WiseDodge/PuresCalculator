@@ -1,6 +1,6 @@
 package com.wisedodge.purescalculator.lookupmodule;
 
-import com.wisedodge.purescalculator.logging.AppLogs;
+import com.wisedodge.purescalculator.logging.DevLogger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -54,7 +54,7 @@ public class PitPandaPureCounter {
                     }
 
                     // Logging item count
-                    AppLogs.logItemCount("Item: %s, Count: %d%n", itemName, itemCount);
+                    DevLogger.logItemCount("Item: %s, Count: %d%n", itemName, itemCount);
                 }
             }
         }
@@ -93,7 +93,7 @@ public class PitPandaPureCounter {
         double totalNetWorthInPures = Math.round(totalNetWorthInVile / pantsBundleToVileRate * 100.0) / 100.0;
 
         // Logging total net worth
-        AppLogs.logTotalNetworth("Total Net Worth in Pures: %.2f%n", totalNetWorthInPures);
+        DevLogger.logTotalNetworth("Total Net Worth in Pures: %.2f%n", totalNetWorthInPures);
 
         return totalNetWorthInPures;
     }

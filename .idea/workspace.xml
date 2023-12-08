@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="855ddc96-dc8a-48f0-afd4-9bb20adafc10" name="Changes" comment="v1.1.0">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wisedodge/purescalculator/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/purescalculator/hello-view.fxml" beforeDir="false" />
+    <list default="true" id="855ddc96-dc8a-48f0-afd4-9bb20adafc10" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/PbToVileConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/PbToVileConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/VileToPbConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/VileToPbConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/logging/AppLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/logging/DevLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaApiAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaApiAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaPureCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaPureCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +34,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ZETvWEyl2B6ZA225tu1RDB2OsK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +55,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -61,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701986470916</updated>
-      <workItem from="1701986472806" duration="14272000" />
+      <workItem from="1701986472806" duration="14781000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1.0">
       <option name="closed" value="true" />
@@ -71,7 +78,39 @@
       <option name="project" value="LOCAL" />
       <updated>1702017385104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.1.0">
+      <option name="closed" value="true" />
+      <created>1702017467076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702017467076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v1.1.0">
+      <option name="closed" value="true" />
+      <created>1702017487834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702017487834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1702017531471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702017531471</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1702017587991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702017587991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,9 +128,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="v1.1.1" />
     <MESSAGE value="v1.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.0" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
