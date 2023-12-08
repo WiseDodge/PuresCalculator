@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855ddc96-dc8a-48f0-afd4-9bb20adafc10" name="Changes" comment="v1.1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/PbToVileConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/VileToPbConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/logging/AppLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaApiAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaPureCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookupUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/ui/dark-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/PureCalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/PuresCalculatorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/converters/PbToVileConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/converters/VileToPbConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/lookupmodule/PlayerLookup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/lookupmodule/PlayerLookupUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/purescalculator/ui/VileCalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/ui/PuresCalculatorUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/purescalculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wisedodge/purescalculator/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wisedodge/purescalculator/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/purescalculator/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +61,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701986470916</updated>
-      <workItem from="1701986472806" duration="13698000" />
+      <workItem from="1701986472806" duration="14272000" />
     </task>
+    <task id="LOCAL-00001" summary="v1.1.0">
+      <option name="closed" value="true" />
+      <created>1702017385104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702017385104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,9 +89,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v1.1.0" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="v1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,7 +5,6 @@ import org.json.JSONObject;
 import java.util.Map;
 
 public class PlayerLookup {
-
     public static void searchPlayer(String playerName) {
         // Call the PitPanda API to get player data
         JSONObject pitPandaResponse = PitPandaApiAccessor.getPlayerData(playerName);
