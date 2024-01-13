@@ -2,6 +2,7 @@ module PuresCalculator {
     requires org.json;
     requires javafx.graphics;
     requires javafx.controls;
+    requires org.apache.logging.log4j;
 
     opens com.wisedodge.purescalculator to javafx.fxml;
     exports com.wisedodge.purescalculator;

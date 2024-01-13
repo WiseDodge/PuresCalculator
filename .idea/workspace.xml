@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0c575c3-6da1-4979-8476-7c3945b4b334" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_6_2023_1_15_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_6_2023_1_15_AM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/koslist/Koslist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/koslist/KoslistUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0c575c3-6da1-4979-8476-7c3945b4b334" name="Changes" comment="v1.1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,20 +34,82 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.PuresCalculatorApp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Krishna/IdeaProjects/PuresCalculator/src/dependencies&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.26548672&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Krishna\IdeaProjects\PuresCalculator\src\dependencies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODING\IdeaProjects" />
+      <recent name="D:\CODING\IdeaProjects\PuresCalculator\" />
+      <recent name="D:\CODING\IdeaProjects\PuresCalculator" />
+      <recent name="D:\CODING\IdeaProjects/PuresCalculator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PuresCalculatorApp">
+    <configuration name="PlayerLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wisedodge.purescalculator.lookupmodule.PlayerLookup" />
+      <module name="PuresCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisedodge.purescalculator.lookupmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuresCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wisedodge.purescalculator.PuresCalculatorApp" />
+      <module name="PuresCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisedodge.purescalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PuresCalculatorApp" />
+        <item itemvalue="Application.PlayerLookup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,10 +120,41 @@
       <updated>1702019293183</updated>
       <workItem from="1702019294295" duration="4002000" />
       <workItem from="1702063008139" duration="289000" />
+      <workItem from="1702450054182" duration="136000" />
+      <workItem from="1702450197125" duration="14000" />
+      <workItem from="1702450247349" duration="577000" />
+      <workItem from="1702450832345" duration="76000" />
+      <workItem from="1702450915946" duration="71000" />
+      <workItem from="1702450993543" duration="450000" />
+      <workItem from="1702451451720" duration="156000" />
+      <workItem from="1702451615456" duration="10149000" />
+      <workItem from="1702513650120" duration="2068000" />
+      <workItem from="1702793499740" duration="924000" />
+      <workItem from="1702795353393" duration="5000" />
+      <workItem from="1702795369218" duration="24000" />
+      <workItem from="1703542934421" duration="2418000" />
+      <workItem from="1703553530870" duration="611000" />
+      <workItem from="1703981620510" duration="3961000" />
+      <workItem from="1704954593973" duration="2000" />
+      <workItem from="1704954633760" duration="33000" />
+      <workItem from="1704954853540" duration="81000" />
+      <workItem from="1704955460326" duration="677000" />
+      <workItem from="1705132987123" duration="516000" />
+      <workItem from="1705133617400" duration="219000" />
+      <workItem from="1705133843144" duration="85000" />
+      <workItem from="1705133950555" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

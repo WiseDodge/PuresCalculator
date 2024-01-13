@@ -2,6 +2,7 @@ package com.wisedodge.purescalculator.ui;
 
 import com.wisedodge.purescalculator.converters.PbToVileConverter;
 import com.wisedodge.purescalculator.converters.VileToPbConverter;
+import com.wisedodge.purescalculator.lookupmodule.koslist.KosListUI;
 import com.wisedodge.purescalculator.lookupmodule.PlayerLookupUI;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
@@ -45,6 +46,9 @@ public class PuresCalculatorUI {
         Button lookupPlayerButton = new Button("Look up player");
         GridPane.setConstraints(lookupPlayerButton, 1, 3);
 
+        Button kosListButton = new Button("Kos List");
+        GridPane.setConstraints(kosListButton, 1, 4);
+
         resultLabel = new Label();
         GridPane.setConstraints(resultLabel, 2, 1, 1, 2);
 
@@ -57,7 +61,7 @@ public class PuresCalculatorUI {
                 1 Fresh Mystic Sword = 2-6 Vile
                 1 Fresh Mystic Bow = 1-4 Vile
                 1 MiniCake = 6 Vile""");
-        GridPane.setConstraints(infoLabel, 0, 4, 2, 1);
+        GridPane.setConstraints(infoLabel, 0, 5, 2, 1);
 
         // Event handler for the button click
         calculateButton.setOnAction(e -> {
@@ -88,8 +92,11 @@ public class PuresCalculatorUI {
         // Event Handler for the lookup player button
         lookupPlayerButton.setOnAction(e -> PlayerLookupUI.openPlayerLookupScreen());
 
+        // Event Handler for the Kos List button
+        kosListButton.setOnAction(e -> KosListUI.showKosList());
+
         // Components added to the grid
-        grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, lookupPlayerButton, resultLabel, infoLabel);
+        grid.getChildren().addAll(quantityInput, conversionTypeChoice, calculateButton, lookupPlayerButton, kosListButton, resultLabel, infoLabel);
     }
 
     public GridPane getGrid() {

@@ -30,7 +30,7 @@ public class PlayerLookupUI {
         // Label to display results
         Label resultLabel = new Label();
 
-        // Event handler for the search button
+        //  Event handler for the search button
         searchButton.setOnAction(actionEvent -> {
             String playerName = lookupField.getText();
             // Get the player data

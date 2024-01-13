@@ -1,0 +1,21 @@
+Log4j Dependencies for PuresCalculator
+
+To ensure the proper functioning of PuresCalculator, it is essential to include the Log4j library. Follow the steps below to download and integrate the required Log4j JAR files.
+
+Download Log4j Files:
+    Visit the official Log4j website https://logging.apache.org/log4j or search for "log4j latest version download" on your preferred search engine. Download the apache-log4j-[version]-src.zip file.
+
+Extract JAR Files:
+    Extract the downloaded ZIP file and locate the following Log4j JAR files:
+    log4j-api-[version].jar
+    log4j-core-[version].jar
+    log4j-slf4j2-impl-[version].jar
+
+Import JAR Files to Your Project:
+    Open your project in your preferred Integrated Development Environment (IDE). Follow these steps to add Log4j as a dependency:
+
+    Navigate to File -> Project Structure -> Modules.
+    Select the Dependencies tab.
+    Click on the + icon to add a new dependency.
+    Choose JARs or directories... and select the Log4j JAR files you extracted.
+    Ensure that the Log4j files are correctly added to your project's dependencies.

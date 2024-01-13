@@ -10,6 +10,7 @@ public class DevLogger {
     public static boolean itemCountLogging = false;
     public static boolean pureNetworthLogging = true;
     public static boolean apiAccessorLogging = true;
+    public static boolean kosListLogging = true;
 
     // Method to log messages for Pb to Vile conversion
     public static void logPbToVile(String message, Object... args) {
@@ -43,6 +44,22 @@ public class DevLogger {
         if (apiAccessorLogging) {
             System.out.printf(message, args);
         }
+    }
+
+    public static void loggingKosList(String message, Object... args) {
+        if (kosListLogging) {
+            System.out.printf(message, args);
+        }
+    }
+
+    private static final DevLogger instance = new DevLogger();
+
+    private DevLogger() {
+        // Private constructor to prevent external instantiation
+    }
+
+    public static DevLogger getInstance() {
+        return instance;
     }
 
     // Add similar log methods for other modules as needed

@@ -11,7 +11,7 @@ public class PbToVileConverter {
         double totalVile = wholePart * 18.0 + fractionalPart * 18.0;
 
         int stacks = (int) (totalVile / 64);
-        long remainingVile = Math.round(totalVile % 64);  // Change the data type to long
+        long remainingVile = Math.round(totalVile % 64);
 
         totalVile = Math.round(totalVile);
 
