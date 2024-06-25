@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0c575c3-6da1-4979-8476-7c3945b4b334" name="Changes" comment="v1.1.0" />
+    <list default="true" id="a0c575c3-6da1-4979-8476-7c3945b4b334" name="Changes" comment="v1.1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dependencies/dependenciesinfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dependencies/dependenciesinfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/PuresCalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/PuresCalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/PbToVileConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/pbToVileConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/VileToPbConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/converters/vileToPbConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/logging/DevLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/logging/devLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaApiAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/pitPandaApiAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PitPandaPureCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/pitPandaPureCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/playerLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/PlayerLookupUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/playerLookupUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/KosList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/kosList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/KosListUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/kosListUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/PlayerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/lookupmodule/koslist/playerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/ui/PuresCalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisedodge/purescalculator/ui/puresCalculatorUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wisedodge/purescalculator/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wisedodge/purescalculator/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +41,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -40,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "v1.1.1",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/CODING/IdeaProjects/PuresCalculator/src/dependencies/log4j-slf4j2-impl-2.19.0.jar",
@@ -52,7 +82,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "settings.editor.splitter.proportion": "0.26548672",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,19 +100,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.PuresCalculatorApp">
-    <configuration name="PlayerLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisedodge.purescalculator.lookupmodule.PlayerLookup" />
-      <module name="PuresCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wisedodge.purescalculator.lookupmodule.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PuresCalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wisedodge.purescalculator.PuresCalculatorApp" />
       <module name="PuresCalculator" />
@@ -95,10 +113,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="playerLookup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wisedodge.purescalculator.lookupmodule.playerLookup" />
+      <module name="PuresCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisedodge.purescalculator.lookupmodule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PuresCalculatorApp" />
-        <item itemvalue="Application.PlayerLookup" />
+        <item itemvalue="Application.playerLookup" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +175,14 @@
       <workItem from="1705133843144" duration="85000" />
       <workItem from="1705133950555" duration="41000" />
       <workItem from="1705134186191" duration="62000" />
-      <workItem from="1705134357810" duration="253000" />
+      <workItem from="1705134357810" duration="298000" />
+      <workItem from="1705137901589" duration="197000" />
+      <workItem from="1705138109960" duration="21000" />
+      <workItem from="1705368185924" duration="12343000" />
+      <workItem from="1705447389076" duration="362000" />
+      <workItem from="1705929584014" duration="289000" />
+      <workItem from="1719142374329" duration="44000" />
+      <workItem from="1719284664577" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="v1.1.0">
       <option name="closed" value="true" />
@@ -154,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705134599153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.1.0">
+      <option name="closed" value="true" />
+      <created>1705134614061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705134614061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v1.1.0">
+      <option name="closed" value="true" />
+      <created>1705134621747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705134621747</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

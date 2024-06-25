@@ -20,4 +20,4 @@ Import JAR Files to Your Project:
     Choose JARs or directories... and select the Log4j JAR files you extracted.
     Ensure that the Log4j files are correctly added to your project's dependencies.
 
-    Finally got my github to update lol
+    Finally, got my GitHub to update lol
